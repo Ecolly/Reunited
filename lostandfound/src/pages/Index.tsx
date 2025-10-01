@@ -13,8 +13,8 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-secondary/10" />
         <div className="container relative mx-auto px-4 py-20">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-2xl mb-6 shadow-lg">
-              <QrCode className="w-10 h-10 text-white" />
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-2xl mb-6 shadow-lg">
+              <QrCode   className="w-10 h-10 text-white " />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
               Campus Lost & Found
@@ -27,7 +27,7 @@ const Index = () => {
               <Button
                 size="lg"
                 onClick={() => navigate("/report-found")}
-                className="bg-gradient-to-r from-primary to-secondary text-lg px-8 shadow-lg hover:shadow-xl transition-shadow"
+                className="bg-gradient-to-r from-blue-500 to-cyan-400 text-lg px-8 shadow-lg hover:shadow-xl transition-shadow"
               >
                 <Package className="w-5 h-5 mr-2" />
                 Report Found Item
@@ -50,8 +50,8 @@ const Index = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <Card className="p-6 text-center hover:shadow-lg transition-shadow bg-card border-border">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-xl mb-4">
-              <QrCode className="w-8 h-8 text-primary" />
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-xl mb-4">
+              <QrCode className="w-8 h-8 text-blue-500" />
             </div>
             <h3 className="text-xl font-semibold text-card-foreground mb-3">
               QR Code System
@@ -62,8 +62,8 @@ const Index = () => {
           </Card>
 
           <Card className="p-6 text-center hover:shadow-lg transition-shadow bg-card border-border">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-secondary/10 rounded-xl mb-4">
-              <MapPin className="w-8 h-8 text-secondary" />
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-xl mb-4">
+              <MapPin className="w-8 h-8 text-green-500" />
             </div>
             <h3 className="text-xl font-semibold text-card-foreground mb-3">
               Location Tracking
@@ -74,8 +74,8 @@ const Index = () => {
           </Card>
 
           <Card className="p-6 text-center hover:shadow-lg transition-shadow bg-card border-border">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-success/10 rounded-xl mb-4">
-              <Search className="w-8 h-8 text-success" />
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-cyan-100 rounded-xl mb-4">
+              <Search className="w-8 h-8 text-cyan-500" />
             </div>
             <h3 className="text-xl font-semibold text-card-foreground mb-3">
               Smart Matching
@@ -89,7 +89,7 @@ const Index = () => {
 
       {/* CTA Section */}
       <div className="container mx-auto px-4 py-16">
-        <Card className="max-w-3xl mx-auto p-8 md:p-12 text-center bg-gradient-to-br from-primary/5 to-secondary/5 border-border">
+        <Card className="max-w-3xl mx-auto p-8 md:p-12 text-center bg-gradient-to-br from-blue-500/5 to-cyan-400/5 border-border">
           <h2 className="text-3xl font-bold text-card-foreground mb-4">
             Browse All Items
           </h2>
