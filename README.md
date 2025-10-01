@@ -1,3 +1,3 @@
 # Campus Lost & Found
 
-![Screenshot](./assets/screenShot.png)
+![Screenshot](./lostandfound/src/assets/screenShot.png)
