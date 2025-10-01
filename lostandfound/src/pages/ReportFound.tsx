@@ -108,7 +108,7 @@ const ReportFound = () => {
               </p>
             </div>
 
-            <Button type="submit" className="w-full bg-gradient-to-r from-primary to-secondary">
+            <Button type="submit" className="w-full bg-gradient-to-r from-blue-500 to-cyan-400">
               Submit Found Item Report
             </Button>
           </form>

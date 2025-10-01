@@ -100,7 +100,7 @@ const ReportLost = () => {
               />
             </div>
 
-            <Button type="submit" className="w-full bg-secondary">
+            <Button type="submit" className="w-full bg-gradient-to-r from-blue-500 to-cyan-400">
               Submit Lost Item Report
             </Button>
           </form>
